@@ -327,16 +327,16 @@
         </header>
 
         <button class="event-trigger reveal" type="button" aria-haspopup="dialog" aria-controls="event-dialog">
-          <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1600&q=70&fm=webp"
-               srcset="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=70&fm=webp 800w, https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1600&q=70&fm=webp 1600w"
+          <img src="https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?w=1600&q=70&fm=webp"
+               srcset="https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?w=800&q=70&fm=webp 800w, https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?w=1600&q=70&fm=webp 1600w"
                sizes="(min-width: 1240px) 1200px, 100vw" width="1600" height="1067" loading="lazy" decoding="async"
                alt="">
           <span class="event-shade" aria-hidden="true"></span>
           <span class="event-content">
             <span class="event-label">Stanno tornando</span>
             <span class="event-title">Le Giornate del Benessere</span>
-            <span class="event-text">Un nuovo concetto di benessere psicofisico, fuori dagli studi e dentro la quotidianità.</span>
-            <span class="event-cta">Scopri e prenota <span aria-hidden="true">→</span></span>
+            <span class="event-text">Incontri, laboratori ed esperienze di gruppo per un nuovo concetto di benessere psicofisico, fuori dagli studi e dentro la quotidianità.</span>
+            <span class="event-cta">Scopri il programma <span aria-hidden="true">→</span></span>
           </span>
         </button>
       </div>
@@ -347,18 +347,84 @@
             <span aria-hidden="true"></span><span class="visually-hidden">Chiudi</span>
           </button>
           <div class="dialog-media">
-            <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1100&q=70&fm=webp" width="1100" height="733" loading="lazy" decoding="async"
-                 alt="Silhouette di una persona in una posizione yoga al tramonto">
+            <img src="https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?w=1100&q=70&fm=webp" width="1100" height="733" loading="lazy" decoding="async"
+                 alt="Mani che suonano una campana tibetana in un ambiente luminoso, con incenso">
           </div>
+
           <div class="dialog-body">
-            <p class="eyebrow">Eventi di gruppo</p>
-            <h2 id="event-dialog-title">Le Giornate del Benessere stanno tornando! <span aria-hidden="true">✨</span></h2>
-            <p>Siamo orgogliosi di contribuire ad un progetto tanto ambizioso quanto utile, promosso dalle <strong>Dottoresse Francesca Carola e Maria Mirra</strong>.</p>
-            <p>Un'iniziativa che punta a diffondere un nuovo concetto di <strong>benessere psicofisico</strong>, portandolo fuori dai classici studi professionali e rendendolo parte della quotidianità.</p>
-            <p><strong>Atletica Agropoli</strong> è orgogliosa di collaborare alla riuscita di questo progetto, sia nella fase organizzativa che nella realizzazione di una giornata dedicata, di cui vi sveleremo presto tutti i dettagli.</p>
+            <div class="dialog-scroll">
+              <p class="eyebrow">Eventi di gruppo</p>
+              <h2 id="event-dialog-title">Le Giornate del Benessere stanno tornando! <span aria-hidden="true">✨</span></h2>
+              <p>Siamo orgogliosi di contribuire ad un progetto tanto ambizioso quanto utile, promosso dalle <strong>Dottoresse Francesca Carola e Maria Mirra</strong>.</p>
+              <p>Un'iniziativa che punta a diffondere un nuovo concetto di <strong>benessere psicofisico</strong>, portandolo fuori dai classici studi professionali e rendendolo parte della quotidianità.</p>
+              <p><strong>Atletica Agropoli</strong> è orgogliosa di collaborare alla riuscita di questo progetto, sia nella fase organizzativa che nella realizzazione di una giornata dedicata, di cui vi sveleremo presto tutti i dettagli.</p>
+
+              <!--
+                PROGRAMMA DEGLI EVENTI — da aggiornare a ogni nuova edizione.
+                Per aggiungere una giornata copia un blocco <li class="program-day">…</li>:
+                  - <time datetime="AAAA-MM-GG">: data in formato ISO
+                  - .pd-num = giorno, .pd-month = giorno della settimana + mese
+                  - un <li> dentro .pd-events per ogni evento (titolo in .pe-title, relatore in .pe-host)
+              -->
+              <div class="program">
+                <div class="program-head">
+                  <h3 class="mini-title">Il programma</h3>
+                  <p class="program-edition">Edizione giugno 2026</p>
+                </div>
+                <ol class="program-list">
+                  <li class="program-day">
+                    <time class="pd-date" datetime="2026-06-15"><span class="pd-num">15</span><span class="pd-month">Lun · Giu</span></time>
+                    <ul class="pd-events">
+                      <li><p class="pe-title">Antropologia alimentare: storia semiseria delle diete</p><p class="pe-host">Andrea Ricci · Biologo Nutrizionista</p></li>
+                    </ul>
+                  </li>
+                  <li class="program-day">
+                    <time class="pd-date" datetime="2026-06-16"><span class="pd-num">16</span><span class="pd-month">Mar · Giu</span></time>
+                    <ul class="pd-events">
+                      <li><p class="pe-title">Glow&amp;Go</p><p class="pe-host">Maria Antonietta Spinelli · Makeup artist</p></li>
+                    </ul>
+                  </li>
+                  <li class="program-day">
+                    <time class="pd-date" datetime="2026-06-17"><span class="pd-num">17</span><span class="pd-month">Mer · Giu</span></time>
+                    <ul class="pd-events">
+                      <li><p class="pe-title">Incontriamo l'Atletica Agropoli</p></li>
+                      <li><p class="pe-title">Decoriamo l'arcobaleno. Pittura su stoffa</p><p class="pe-host">Maria Grazia Lancellotti · Artista</p></li>
+                      <li><p class="pe-title">Armonizzazione sonora di gruppo</p><p class="pe-host">Katia Polla · Operatore Olistico del suono</p></li>
+                    </ul>
+                  </li>
+                  <li class="program-day">
+                    <time class="pd-date" datetime="2026-06-18"><span class="pd-num">18</span><span class="pd-month">Gio · Giu</span></time>
+                    <ul class="pd-events">
+                      <li><p class="pe-title">Uncinetto è… arte, creatività e relax!</p><p class="pe-host">Teresa Miglino Ricci · Esperta di crochet</p></li>
+                      <li><p class="pe-title">Consapevolezza del momento presente</p><p class="pe-host">Luciano Bufano · Insegnante di Yoga</p></li>
+                    </ul>
+                  </li>
+                  <li class="program-day">
+                    <time class="pd-date" datetime="2026-06-19"><span class="pd-num">19</span><span class="pd-month">Ven · Giu</span></time>
+                    <ul class="pd-events">
+                      <li><p class="pe-title">La valigia degli arcobaleni interiori</p><p class="pe-host">Emiliana Sansivieri · Pedagogista clinica e Maria Mirra · Psicologa Psicoterapeuta</p></li>
+                    </ul>
+                  </li>
+                  <li class="program-day">
+                    <time class="pd-date" datetime="2026-06-20"><span class="pd-num">20</span><span class="pd-month">Sab · Giu</span></time>
+                    <ul class="pd-events">
+                      <li><p class="pe-title">Piedi felici, mente serena</p><p class="pe-host">Anna Dell'Aglio · Riflessologa plantare</p></li>
+                      <li><p class="pe-title">Trekking: Castello di Federico II al tramonto</p><p class="pe-host">Cilento Accuvato · Guida escursioni</p></li>
+                    </ul>
+                  </li>
+                  <li class="program-day">
+                    <time class="pd-date" datetime="2026-06-21"><span class="pd-num">21</span><span class="pd-month">Dom · Giu</span></time>
+                    <ul class="pd-events">
+                      <li><p class="pe-title">Commentiamo insieme “Lo strano caso del cane ucciso a mezzanotte” di Mark Haddon</p><p class="pe-host">Club del Libro “Tra le righe” · Centro MEDICASUD srl · OTIUM Mare Felix</p></li>
+                    </ul>
+                  </li>
+                </ol>
+                <p class="program-note">Le date e gli appuntamenti possono variare a ogni edizione: qui trovi sempre il programma aggiornato.</p>
+              </div>
+            </div>
+
             <div class="dialog-actions">
-              <a class="btn btn-primary" href="https://wa.me/393479921900?text=Buongiorno%20Dott.ssa%20Mirra%2C%20vorrei%20prenotarmi%20alle%20Giornate%20del%20Benessere." target="_blank" rel="noopener">Prenotati su WhatsApp<span class="visually-hidden"> (si apre in una nuova scheda)</span></a>
-              <a class="btn btn-outline" href="#contatti" data-close>Richiedi informazioni</a>
+              <a class="btn btn-primary" href="https://wa.me/393479921900?text=Buongiorno%20Dott.ssa%20Mirra%2C%20vorrei%20prenotarmi%20alle%20Giornate%20del%20Benessere.%20Evento%20di%20interesse%3A%20" target="_blank" rel="noopener">Prenota ora<span class="visually-hidden"> tramite WhatsApp (si apre in una nuova scheda)</span></a>
             </div>
           </div>
         </div>
@@ -574,7 +640,7 @@
       <div class="footer-contact">
         <h2 class="footer-title">Contatti</h2>
         <p class="footer-label">WhatsApp</p>
-        <p><a href="https://wa.me/393479921900" target="_blank" rel="noopener">Al numero 347 992 1900<span class="visually-hidden"> (si apre in una nuova scheda)</span></a></p>
+        <p><a href="https://wa.me/393479921900" target="_blank" rel="noopener">347 992 1900<span class="visually-hidden"> (si apre in una nuova scheda)</span></a></p>
         <p class="footer-label">Studio</p>
         <p>Via Taverne 51<br>Agropoli (SA)</p>
         <p class="footer-label">Seguimi</p>
